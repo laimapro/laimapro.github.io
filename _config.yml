@@ -1,0 +1,68 @@
+title: "Laima" 
+description: ""
+tagline: ""
+permalink: /:categories/:title
+
+
+footer-description: ""
+
+email: ""
+disqus_shortname: ""
+
+author: ""
+author-picture: ""
+author-alt: ""
+banner: ""
+image: ""
+logo: ""
+logo-alt: ""
+
+twitter:
+  username: ""
+  card: ""
+
+facebook:
+  app_id: ""      #app_id
+  publisher: ""   # page
+  admins: ""      # profile
+
+social:
+  name: ""
+  links:
+    - https://twitter.com/laima
+    - https://www.facebook.com/laima
+    - https://www.linkedin.com/in/laima
+    - https://github.com/laima
+    - https://behance.net/laima
+    - https://laima.medium.com/
+
+locale: pt-BR
+
+webmaster_verifications:
+  google: ""
+  bing: ""
+  # alexa: 1234
+  # yandex: 1234
+  # baidu: 1234
+  # facebook: 1234
+
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  profile: false
+  blanklines: false
+  ignore:
+    envs: []
+
+brotli:
+  extensions:
+    - '.html'
+    - '.css'
+    - '.js'
+
+plugins:
+  - jekyll-feed
+  - jekyll-brotli
+  - jekyll-seo-tag

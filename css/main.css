@@ -1,0 +1,69 @@
+:root {
+    --color-primary: #0d6efd
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+}
+
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.menu-button {
+    border-color: #fff;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: auto;
+}
+
+.banner-main:before {
+    z-index: 0;
+    position: absolute;
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    left: 0;
+    top: 0;
+    content: "";
+    border-radius: var(--bs-border-radius)
+}
+
+.section {
+    padding: 10vh 0;
+    margin: 10vh 0;
+}
+
+.section-title {
+    position: relative;
+    font-weight: bold;
+}
+
+.section-title:before {
+    content: "";
+    width: 15vw;
+    height: 0.5vh;
+    display: block;
+    position: relative;
+    margin: -1rem auto .5rem;
+    background-color: var(--color-primary);
+}
+
+.banner-main {
+    background: transparent url('https://img.freepik.com/free-photo/unrecognizable-male-surfer-standing-with-surfboard-sea-beach_74855-16479.jpg?w=1996&t=st=1701542410~exp=1701543010~hmac=18fa5f09fbab0ce60408ffe1c6d42f771f594ece7e5c79af14359557656dd90b') center right no-repeat;
+    background-size: cover;
+    min-height: 75vh;
+    background-attachment: fixed;
+}
+
+
+.banner-main-content {
+    min-height: 35vh;
+    padding-top: 25vh;
+}

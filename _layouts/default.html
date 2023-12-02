@@ -1,0 +1,34 @@
+---
+layout: compress
+---
+{% include head.html%}
+
+<body class="p-4">
+  <!-- VLIVRAS -->
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <!-- VLIVRAS -->
+
+  
+  <div class="mb-2 text-center visually-hidden-focusable overflow-hidden">
+    <a class="btn btn-outline-primary btn-sm p-2 m-1" href="#content">Ir para o conteúdo</a>
+    <a class="btn btn-outline-primary btn-sm p-2 m-1" href="#menu-items">Ir para o menu</a>
+  </div>
+  
+  <main id="content">
+    {{content}}
+
+    {% include footer.html%}
+  </main>
+
+</body>
+
+</html>
