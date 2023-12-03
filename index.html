@@ -3,24 +3,45 @@ layout: default
 title: Laima
 ---
 <section class="banner-main rounded position-relative p-5">
-    {% include nav.html%}
+    <div class="container mx-auto">
+        {% include nav.html%}
 
-    <div id="content" class="z-2 banner-main-content position-relative col-12 col-md-5 ">
-        <h1 class="text-white fw-bold">Boas vindas ao Laima 👋</h1>
-        <p class="text-white pt-3 pb-4 m-0">A inteligência humana ensinando a máquina a atender às necessidades da
-            pessoa com deficiência</p>
-        <a class="btn btn-primary" href="#" role="button" href="#">Saiba mais <i class="ms-2 bi bi-arrow-right-short"
-                aria-hidden="true"></i></a>
+        <div id="content" class="z-2 banner-main-content position-relative col-12 col-md-5 ">
+            <h1 class="text-white fw-bold">Boas vindas ao Laima 👋</h1>
+            <p class="text-white pt-3 pb-4 m-0">A inteligência humana ensinando a máquina a atender às necessidades da
+                pessoa com deficiência</p>
+            <a class="btn btn-primary mt-5" href="#" role="button" href="#">Saiba mais <i
+                    class="ms-2 bi bi-arrow-right-short" aria-hidden="true"></i></a>
+        </div>
     </div>
 </section>
 
 <section class="section section-project">
-    <h2 class="fs-1 section-title text-center">
-        Conheça nosso projetos
-    </h2>
-    <div class="p-5"></div>
+    <div class="my-5 py-5 row container mx-auto position-relative">
+        <div class="col-12 col-md-6 order-2 order-md-1  d-flex flex-column align-items-start justify-content-end">
+            <h2 class="fs-1 section-title">
+                Projeto mais recente
+            </h2>
+            <div class="py-5"></div>
 
-    <ul class="list-unstyled col-12 col-md-10 col-lg-8 mx-auto">
-        {% include project-list.html %}
-    </ul>
+            <p>
+                <h3>Projeto</h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam nisi maiores quisquam accusantium
+                deserunt facilis nostrum pariatur similique sit doloribus reprehenderit id in quae, ea eaque impedit
+                tempora suscipit totam?</p>
+            <a class="text-dark stretched-link" href="#" role="button" href="#">Acesse a página do detalhe <i
+                    class="ms-2 bi bi-arrow-right-short" aria-hidden="true"></i></a>
+        </div>
+            <img src="http://lorempixel.com.br/900/450/?7" class="col-12 col-md-6  order-1 order-md-2 object-fit-cover border rounded p-0" alt="alt do projeto destaque">
+    </div>
+    <div class="my-5 py-5">
+        <h3 class="fs-1 section-title text-center">
+            Outros projetos
+        </h3>
+        <div class="py-5"></div>
+
+        <ul class="container mx-auto list-unstyled row">
+            {% include project-list.html %}
+        </ul>
+    </div>
 </section>

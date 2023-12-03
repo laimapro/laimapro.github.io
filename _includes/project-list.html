@@ -1,13 +1,11 @@
 {% for item in site.data.projects.project %}
-<li class="mb-3">
+<li class="mb-3 col-12 col-md-6">
     <div class="card border shadow-sm p-4 rounded bg-light">
         <div class="row g-0">
-            <div class="col-md-4 col-12">
-                <img src="{{item.image}}" class="img-fluid rounded" alt="{{item.alt}}">
-            </div>
+                <img src="{{item.image}}" class="col-md-4 col-12 object-fit-cover border rounded p-0" alt="{{item.alt}}">
             <div class="col-md-8 col-12 d-flex align-items-end">
                 <div class="card-body">
-                    <h3 class="card-title">{{item.name}}</h3>
+                    <h4 class="card-title">{{item.name}}</h4>
                     <p class="card-text">{{item.description}}</p>
                     <p class="card-text">
                         <small class="text-body-secondary">
