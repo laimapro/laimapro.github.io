@@ -63,3 +63,11 @@ body {
     min-height: 35vh;
     padding-top: 25vh;
 }
+
+.badge.badge-status-concluido {
+    background-color: green
+}
+
+.badge.badge-status-em-andamento {
+    background-color: orange
+}

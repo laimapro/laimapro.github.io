@@ -2,24 +2,12 @@
 layout: default
 title: Laima
 ---
-<section class="m-2 banner-main rounded position-relative p-5">
-    <div class="container mx-auto">
-        {% include nav.html%}
-
-        <div id="content" class="z-2 banner-main-content position-relative col-12 col-md-5 ">
-            <h1 class="text-white fw-bold">Boas vindas ao Laima 👋</h1>
-            <p class="text-white pt-3 pb-4 m-0">A inteligência humana ensinando a máquina a atender às necessidades da
-                pessoa com deficiência</p>
-            <a class="btn btn-primary mt-5" href="#" role="button" href="#">Saiba mais <i
-                    class="ms-2 bi bi-arrow-right-short" aria-hidden="true"></i></a>
-        </div>
-    </div>
-</section>
 
 
 
+<div class="m-2">{% include parts/banner.html %}</div>
 {% include parts/projects.html %}
-{% include parts/pcds.html %}
+<div class="m-2">{% include parts/pcds.html %}</div>
 {% include parts/faq.html %}
 {% include parts/articles-list.html %}
-{% include parts/contact.html %}
+ {% include parts/contact.html %}
