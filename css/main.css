@@ -3,10 +3,6 @@
 }
 
 body {
-    background-color: rgba(0, 0, 0, 0.05) !important;
-}
-
-* {
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -36,8 +32,8 @@ body {
 }
 
 .section {
-    padding: 10vh 0;
-    margin: 10vh 0;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 .section-title {
@@ -51,7 +47,7 @@ body {
     height: 0.5vh;
     display: block;
     position: relative;
-    margin: -1rem auto .5rem;
+    margin: -1rem 0 .5rem;
     background-color: var(--color-primary);
 }
 

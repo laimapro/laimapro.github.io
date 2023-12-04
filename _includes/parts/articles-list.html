@@ -1,0 +1,17 @@
+<section class="section section-article">
+    <div class="row container mx-auto">
+        <div class="d-flex justify-content-between align-items-start">
+            <h2 class="section-title">
+                Dê uma olhada nos <br>nossos artigos e notícias
+            </h2>
+            <a href="#" class="btn btn-outline-primary">acesse todos os textos</a>
+        </div>
+
+        <ul class="list-unstyled row container mx-auto px-0 py-4">
+            {% for post in site.posts limit:6%}
+            {% include parts/card.html %}
+            {% endfor %}
+        </ul>
+
+    </div>
+</section>
